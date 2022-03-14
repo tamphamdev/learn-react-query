@@ -5,9 +5,57 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(53, 48, 48);
+  display: flex;
+  justify-content: center;
+  color: #fff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+h1 {
+  color :#ffff57;
+  text-align: center;
+  font-size: 3em;
+}
+h2 {
+  color: #ffff57;
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+button {
+  padding:1em 2em;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+  background: transparent;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid #ffff57;
+  transition: all 0.2s;
+}
+
+.card {
+  padding: 8px 16px;
+  background: #1b1b1b;
+  margin:  16px 0;
+  border-radius: 20px;
+}
+
+.card p {
+  margin: 6px 0;
+  color: #999;
+}
+
+.card h3{
+  margin: 10px 0;
+  color: #ffff57;
 }
